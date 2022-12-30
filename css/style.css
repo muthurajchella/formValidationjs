@@ -51,6 +51,10 @@ body{
     padding: 10px;
 }
 
+.from-group input:focus{
+    outline: none;
+}
+
 .from-group::placeholder{
     color: #2a0845;
 }
@@ -88,6 +92,16 @@ body{
 .from-group.error i.ion-android-alert{
     visibility: visible;
     color: #e74c3c;
+}
+
+.from-group.error span{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.from-group.success span{
+    /* color: #2ecc71; */
+    visibility: hidden;
 }
 
 .form #submit{
