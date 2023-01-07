@@ -120,3 +120,13 @@ body{
 .form #submit:hover{
     background-color: #6441a5;
 }
+
+@media only screen and (max-width : 500px){
+    .form{
+        width: 100%;
+    }
+
+    .from-group span{
+        font-size: xx-small;
+    }
+}
